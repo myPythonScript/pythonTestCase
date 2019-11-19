@@ -1,0 +1,27 @@
+test_add_card:
+  url: /gasStation/process
+  method: post
+  data:
+    dataSourceId: bHRz
+    methodId: 00A
+    CardInfo:
+      cardNumber: !!str 12301230
+
+test_bingding_card:
+    dataSourceId: bHRz
+    methodId: 01A
+    CardUser:
+      userName: 张三
+      idType: 1
+      idNumber: !!str 12301230111149
+    CardInfo:
+      cardNumber: !!str 12301230
+
+test_qury_card:
+ url: /gasStation/process
+ method: get
+ data:
+    dataSourceId: bHRz
+    userId: 0
+    cardNumber: {cardnumber}
+    methodId: 02A

@@ -1,0 +1,13 @@
+{
+  "test_add_card": {
+    "url": "/gasStation/process",
+    "method": "post",
+    "data": {
+      "dataSourceId": "bHRz",
+      "methodId": "00A",
+      "CardInfo": {
+        "cardNumber": "00002"
+      }
+    }
+  }
+}

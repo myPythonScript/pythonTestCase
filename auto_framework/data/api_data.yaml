@@ -1,0 +1,7 @@
+- method: get
+  url: http://115.28.108.130:3306/gasStation/process
+  params:
+     dataSourceId: bHRz
+     userId: 10159
+     cardNumber: 0002
+     methodId: 02A
