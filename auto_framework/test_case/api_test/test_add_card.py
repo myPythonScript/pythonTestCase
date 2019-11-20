@@ -1,4 +1,7 @@
 import pytest_check as ck
+from logging import log
+import pytest
+
 
 def test_add_card(case_data,db,api):
     # 读取yaml文件中的数据并拆分
@@ -22,6 +25,7 @@ def test_add_card(case_data,db,api):
     # 清除数据
     db.delete('cardinfo', 'cardNumber', cardnumber)
     print('数据已清理')
+    log.info("添加的数据已被清理")
 
 
 

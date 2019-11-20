@@ -9,5 +9,32 @@
         "cardNumber": "00002"
       }
     }
+  },
+  "test_bingding_card": {
+    "url": "/gasStation/process",
+    "method": "post",
+    "data": {
+      "dataSourceId": "bHRz",
+	  "methodId": "01A",
+	  "CardUser": {
+		"userName": "42342",
+		"idType": "1",
+		"idNumber": "742328495"
+	  },
+	  "CardInfo": {
+		"cardNumber": "2454545789"
+	  }
+    }
+  },
+  "test_qury_card": {
+    "url": "/gasStation/process",
+    "method": "post",
+    "data":{
+      "dataSourceId": "bHRz",
+      "userId": 5616656,
+      "cardNumber": 2454545789,
+      "methodId": "02A"
+    }
   }
+
 }

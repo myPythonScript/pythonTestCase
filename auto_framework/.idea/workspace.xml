@@ -37,7 +37,8 @@
   <component name="ProjectId" id="1TDoodekhEjP1ehcLYIar2OY9GP" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Tencent Files/540224203/FileRecv/longteng17/longteng17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -59,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.notify">
+  <component name="RunManager" selected="Python.test_addGoods">
     <configuration name="{case_data}.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/auto_framework/reports/{case_data}.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -173,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_add_card" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_addGoods" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="auto_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,12 +182,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/api_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/web_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/api_test/test_add_card.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/web_test/test_addGoods.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_addGoods" />
+        <item itemvalue="Python.data" />
         <item itemvalue="JavaScript Debug.{case_data}.html" />
         <item itemvalue="Python.db" />
         <item itemvalue="Python.db_practice" />
-        <item itemvalue="Python.data" />
-        <item itemvalue="Python.test_add_card" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +231,11 @@
       <workItem from="1573521479591" duration="38000000" />
       <workItem from="1573715091191" duration="5183000" />
       <workItem from="1573722757589" duration="23805000" />
-      <workItem from="1574039938161" duration="16795000" />
+      <workItem from="1574039938161" duration="27629000" />
+      <workItem from="1574218468965" duration="48000" />
+      <workItem from="1574223301680" duration="533000" />
+      <workItem from="1574230743202" duration="2539000" />
+      <workItem from="1574239487219" duration="616000" />
     </task>
     <servers />
   </component>
@@ -241,17 +246,18 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.yaml" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/auto_framework$api_practice.coverage" NAME="api_practice Coverage Results" MODIFIED="1573704160459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_framework$db_practice.coverage" NAME="db_practice Coverage Results" MODIFIED="1573804212650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/auto_framework$notify.coverage" NAME="notify Coverage Results" MODIFIED="1574059484805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/auto_framework$test_add_card.coverage" NAME="test_add_card Coverage Results" MODIFIED="1573787366985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/api_test" />
     <SUITE FILE_PATH="coverage/auto_framework$db.coverage" NAME="db Coverage Results" MODIFIED="1573804520260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/auto_framework$data.coverage" NAME="data Coverage Results" MODIFIED="1573799662273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/auto_framework$data.coverage" NAME="data Coverage Results" MODIFIED="1574152264251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/auto_framework$practice.coverage" NAME="practice Coverage Results" MODIFIED="1573633128518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_framework$test_api_practice.coverage" NAME="test_api_practice Coverage Results" MODIFIED="1573632145486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_framework$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1573715747053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/api_test" />
     <SUITE FILE_PATH="coverage/auto_framework$data_practice.coverage" NAME="data_practice Coverage Results" MODIFIED="1573703058379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_framework$api.coverage" NAME="api Coverage Results" MODIFIED="1573703353336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/auto_framework$api_practice.coverage" NAME="api_practice Coverage Results" MODIFIED="1573704160459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/auto_framework$notify.coverage" NAME="notify Coverage Results" MODIFIED="1574059484805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/auto_framework$test_add_card.coverage" NAME="test_add_card Coverage Results" MODIFIED="1573787366985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/api_test" />
+    <SUITE FILE_PATH="coverage/auto_framework$test_addGoods.coverage" NAME="test_addGoods Coverage Results" MODIFIED="1574233317078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/web_test" />
     <SUITE FILE_PATH="coverage/auto_framework$apiTest_practice.coverage" NAME="apiTest_practice Coverage Results" MODIFIED="1573638980051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

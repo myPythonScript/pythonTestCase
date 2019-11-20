@@ -1,13 +1,20 @@
 import pytest_check as ck
-import test_case.api_test.test_add_card
-#
-# cardNumber = test_case.api_test.test_add_card.test_add_card()
-# print(cardNumber)
+import pytest
 
-# def test_bingding_card(case_data,db,api):
-#     # 在数据库中查找没有绑卡的用户
-#     get_user = db.qury('user', 'cardNumber', '')
-#     print(get_user)
+@pytest.mark.skip
+def test_bingding_card(case_data,api):
+    # 读取yaml文件中的数据并拆分
+    url = case_data['url']
+    para = case_data['data']
+    cardnumber = para['CardInfo']['cardNumber']
+
+    # 执行接口测试
+    res = api.post(url, **para)
+    # 验证返回数据
+    ck.equal(res.json()['code'], 5010)
+    ck.equal(res.json()['msg'], '绑定成功')
+    ck.equal(res.json()['result["UserId"]'], 5616656)
+    return cardnumber
 
 
 

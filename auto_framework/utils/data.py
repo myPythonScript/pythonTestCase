@@ -18,8 +18,3 @@ class Data(object):
             json_data = json.load(f)
         return json_data
 
-# if __name__ == '__main__':
-#     d = Data("data.yaml")
-#     data = d.from_yaml()
-#     print(data)
-#     print(data[2]['data']['CardInfo']['cardNumber'])

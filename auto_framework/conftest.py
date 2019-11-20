@@ -1,14 +1,10 @@
-"""
-此conftest.py文件用作确保直接在项目下执行pytest命令时能正常导入utils等模块。
-也可以不使用该文件，但是在项目中执行时要使用python -m pytest来执行用例。
-"""
 import os
 from datetime import datetime
 from utils.notify import send_email
 
 def pytest_configure(config):
     """更改生成报告的路径"""
-    htmlpath = config.getoption('htmlpath')
+    htmlpath = str(config.getoption('htmlpath'))
     now = datetime.now().strftime('%Y%m%d_%H%M%S')
     config.option.htmlpath = os.path.join(config.rootdir, 'reports', htmlpath.format(now))
 

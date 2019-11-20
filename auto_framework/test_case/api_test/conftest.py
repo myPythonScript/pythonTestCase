@@ -5,7 +5,7 @@ from utils.api import Api
 
 @pytest.fixture(scope = 'session')
 def data():
-    data = Data('data.json').from_yaml()
+    data = Data('data.json').from_json()
     return data
 
 @pytest.fixture(scope = 'session')
@@ -28,6 +28,6 @@ def case_data(request,data):
     case_name = request.function.__name__
     case_data = data.get(case_name)
     print('用例名称为：%s' % case_name)
-    print('用例参数为：%s'%case_data)
+    print('用例参数为：%s' % case_data)
     return case_data
 

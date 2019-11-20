@@ -8,19 +8,22 @@ test_add_card:
       cardNumber: !!str 12301230
 
 test_bingding_card:
+  url: /gasStation/process
+  method: post
+  data:
     dataSourceId: bHRz
     methodId: 01A
     CardUser:
-      userName: 张三
+      userName: 42342
       idType: 1
-      idNumber: !!str 12301230111149
+      idNumber: 742328495
     CardInfo:
-      cardNumber: !!str 12301230
+      cardNumber: 2454545789
 
 test_qury_card:
- url: /gasStation/process
- method: get
- data:
+  url: /gasStation/process
+  method: get
+  data:
     dataSourceId: bHRz
     userId: 0
     cardNumber: {cardnumber}
