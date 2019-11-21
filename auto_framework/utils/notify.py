@@ -12,7 +12,9 @@ from email.mime.image import MIMEImage
 from email.mime.application import MIMEApplication
 
 class send_email(object):
-    def sendeml(self,sender,receiver,body,report_path):
+
+    def sendeml(self,sender,receiver,content,report_path):
+
         # 邮件头，From,To，邮件主题，
         msg = MIMEMultipart()
         msg['From'] = 'Daisy <'+ sender +'>'
@@ -20,7 +22,6 @@ class send_email(object):
         msg['Subject'] = '发送邮件测试'
 
         #组装邮件发送的内容
-        content = body
         # 添加附件
         attachment = MIMEText(open(report_path, 'rb').read(), 'base64', 'utf-8')
         attachment['Content-Type'] = 'application/octet-stream'
@@ -41,16 +42,17 @@ class send_email(object):
         smtp = smtplib.SMTP('smtp.qq.com')
         smtp.ehlo()
         smtp.starttls()
-        smtp.login('540224203@qq.com','vqhbwanlpltzbebd') #发送邮箱地址及授权码
+        smtp.login('540224203@qq.com','acpkkzfdsdbdbcgc') #发送邮箱地址及授权码
         #收件人邮箱地址，可同时发多人
         smtp.sendmail(sender, receiver, msg.as_string())
         print("邮件发送成功")
 
-#
+
 # if __name__ == '__main__':
-#     fromaddr = 'wei-lili@qq.com'
+#     fromaddr = '540224203@qq.com'
 #     toaddrs = '1584903008@qq.com'
-#     report_path = '789'
+#     content = '''发送邮件正文'''
+#     Autho_code = 'acpkkzfdsdbdbcgc'
 #     send_eml = send_email()
-#     send_eml.sendeml(fromaddr, toaddrs,report_path)
+#     send_eml.sendeml(fromaddr, toaddrs,content,Autho_code)
 

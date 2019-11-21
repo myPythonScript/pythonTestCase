@@ -15,6 +15,7 @@ def pytest_addoption(parser):
     parser.addini('fromaddr', help='发件人')
     parser.addini('body', help='邮件正文内容')
 
+
 def pytest_terminal_summary(config):
     report_path = config.getoption('htmlpath')
     fromaddr = config.getini('fromaddr')
