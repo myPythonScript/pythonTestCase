@@ -2,7 +2,7 @@ import pytest_check as ck
 from logging import log
 import pytest
 
-
+@pytest.mark.api
 def test_add_card(case_data,db,api):
     # 读取yaml文件中的数据并拆分
     url = case_data['url']

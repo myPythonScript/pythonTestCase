@@ -2,6 +2,8 @@ import pytest
 from utils.data import Data
 from utils.db import DB
 from utils.api import Api
+#api接口地址
+base_url = 'http://115.28.108.130:8080'
 
 @pytest.fixture(scope = 'session')
 def data():
@@ -19,7 +21,7 @@ def db():
         db.close()
 
 @pytest.fixture(scope = 'session')
-def api(base_url):
+def api():
     api = Api(base_url)
     return api
 

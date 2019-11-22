@@ -2,6 +2,7 @@ import pytest_check as ck
 import pytest
 
 @pytest.mark.skip
+@pytest.mark.api
 def test_qury_card(case_data,api):
     # 读取yaml文件中的数据并拆分
     url = case_data['url']
