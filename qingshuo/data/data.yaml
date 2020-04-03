@@ -1,0 +1,74 @@
+methods:
+  - &get_no_header
+    method: get
+    headers: ~
+  - &get_header
+    method: get
+    headers:
+      uId: !!str 88731867704197357
+
+paramss:
+  - &followcorpusId
+    corpusId: 78552860459270153
+
+# 查询文集类型模板
+test_list_corpus_tmpl:
+  url: /corpus-service/listCorpusTmpl
+  <<: *get_no_header
+
+# 搜索热标签列表
+test_list_by_ids_for_moments:
+  url: /corpus-service/listByIdsForMoments
+  <<: *get_no_header
+  params:
+    corpusIdList: 89821694436573357
+
+# 搜索热标签列表
+test_list_trending_tag:
+  url: /search-service/listTrendingTag
+  <<: *get_no_header
+
+# 关注文集
+test_add_corpus_user_follow:
+  url: /corpus-service/addCorpusUserFollow
+  <<: *get_header
+  params:
+    <<: *followcorpusId
+
+# 取消关注文集
+test_cancel_corpus_user_follow:
+  url: /corpus-service/cancelCorpusUserFollow
+  <<: *get_header
+  params:
+    <<: *followcorpusId
+
+# 获取用户关注的小站-关注文集列表
+test_find_follow_corpus_by_user:
+  url: /corpus-service/findFollowCorpusByUser
+  <<: *get_header
+  params:
+    pageSize: 10
+    pageStart: 0
+    requestType: 1
+
+# 根据用户ID判断是否关注文集
+test_query_is_follow_corpus:
+  url: /corpus-service/queryIsFollowCorpus
+  <<: *get_header
+  params:
+    <<: *followcorpusId
+
+# 创建我的收藏夹
+test_create_my_favorites:
+  url: /corpus-service/createMyFavorites
+  method: post
+  headers:
+    uId: {uId}
+  data:
+    corpusName: "美图收藏夹"
+    summary: "收藏夹简介，sleepyhead"
+
+# 查看用户收藏夹id列表
+test_list_favorites_id_by_uid:
+  url: /corpus-service/listFavoritesIdByUid
+  <<: *get_header
