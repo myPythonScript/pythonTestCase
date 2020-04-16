@@ -1,0 +1,222 @@
+[1586962269.997][INFO]: Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 55542
+[1586962269.997][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1586962270.500][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1586962270.503][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1586962270.503][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1586962270.512][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12780_1686094394\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12780_346145314" data:,
+[1586962272.876][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1586962272.883][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1586962275.720][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.92",
+      "chrome": {
+         "chromedriverVersion": "80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882})",
+         "userDataDir": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\scoped_dir12780_346145314"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55551"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "e882f6a8d2dba38ae03db7d3933a51a2"
+}
+[1586962275.732][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] COMMAND Navigate {
+   "url": "https://www.baidu.com"
+}
+[1586962275.732][INFO]: Waiting for pending navigations...
+[1586962275.733][INFO]: Done waiting for pending navigations. Status: ok
+[1586962281.953][INFO]: Waiting for pending navigations...
+[1586962282.187][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962282.289][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962282.390][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962282.492][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962282.594][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962282.700][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962282.801][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962282.902][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962283.003][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962283.104][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962283.205][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962283.367][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962283.468][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962283.569][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962283.670][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962283.771][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962283.872][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962283.973][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962284.074][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962284.175][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962284.278][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962284.468][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962284.569][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962284.670][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962284.770][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962284.871][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962284.972][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962285.216][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962285.379][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962285.480][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962285.581][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586962285.638][INFO]: Done waiting for pending navigations. Status: ok
+[1586962285.638][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] RESPONSE Navigate
+[1586962285.644][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[id=\"kw\"]"
+}
+[1586962285.644][INFO]: Waiting for pending navigations...
+[1586962285.645][INFO]: Done waiting for pending navigations. Status: ok
+[1586962285.661][INFO]: Waiting for pending navigations...
+[1586962285.662][INFO]: Done waiting for pending navigations. Status: ok
+[1586962285.662][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f5e649c0-72a5-46c7-bfaf-f48f4521a444"
+}
+[1586962285.663][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] COMMAND ClearElement {
+   "id": "f5e649c0-72a5-46c7-bfaf-f48f4521a444"
+}
+[1586962285.663][INFO]: Waiting for pending navigations...
+[1586962285.664][INFO]: Done waiting for pending navigations. Status: ok
+[1586962285.687][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1586962285.702][INFO]: Waiting for pending navigations...
+[1586962285.702][INFO]: Done waiting for pending navigations. Status: ok
+[1586962285.702][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] RESPONSE ClearElement
+[1586962285.704][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] COMMAND TypeElement {
+   "id": "f5e649c0-72a5-46c7-bfaf-f48f4521a444",
+   "text": "selenium",
+   "value": [ "selenium" ]
+}
+[1586962285.704][INFO]: Waiting for pending navigations...
+[1586962285.705][INFO]: Done waiting for pending navigations. Status: ok
+[1586962285.913][INFO]: Waiting for pending navigations...
+[1586962285.914][INFO]: Done waiting for pending navigations. Status: ok
+[1586962285.914][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] RESPONSE TypeElement
+[1586962285.916][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[id=\"su\"]"
+}
+[1586962285.916][INFO]: Waiting for pending navigations...
+[1586962285.917][INFO]: Done waiting for pending navigations. Status: ok
+[1586962285.930][INFO]: Waiting for pending navigations...
+[1586962285.930][INFO]: Done waiting for pending navigations. Status: ok
+[1586962285.930][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a6d31841-354d-4bc4-8320-d91807c1a77f"
+}
+[1586962285.932][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] COMMAND ClickElement {
+   "id": "a6d31841-354d-4bc4-8320-d91807c1a77f"
+}
+[1586962285.932][INFO]: Waiting for pending navigations...
+[1586962285.933][INFO]: Done waiting for pending navigations. Status: ok
+[1586962286.058][INFO]: Waiting for pending navigations...
+[1586962286.060][INFO]: Done waiting for pending navigations. Status: ok
+[1586962286.060][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] RESPONSE ClickElement
+[1586962288.062][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] COMMAND GetTitle {
+
+}
+[1586962288.062][INFO]: Waiting for pending navigations...
+[1586962288.286][INFO]: Done waiting for pending navigations. Status: ok
+[1586962288.307][INFO]: Waiting for pending navigations...
+[1586962288.329][INFO]: Done waiting for pending navigations. Status: ok
+[1586962288.329][INFO]: [e882f6a8d2dba38ae03db7d3933a51a2] RESPONSE GetTitle "selenium_百度搜索"
