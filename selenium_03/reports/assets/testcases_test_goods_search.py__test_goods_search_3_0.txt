@@ -1,0 +1,28 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>管理中心</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="Text/Javascript" language="JavaScript">
+<!--
+
+if (window.top != window)
+{
+  window.top.location.href = document.location.href;
+}
+
+//-->
+</script>
+
+</head><frameset rows="113,*" framespacing="0" border="0" id="frame-all">
+  <frame src="index.php?act=top" id="header-frame" name="header-frame" frameborder="no" scrolling="no">
+  <frameset cols="200, *" framespacing="0" border="0" id="frame-body">
+    <frame src="index.php?act=menu" id="menu-frame" name="menu_frame" frameborder="no" scrolling="yes" cd_frame_id_="291cddbdffa1377b58cc6d7ecb9a41c9">
+    <frame src="index.php?act=main" id="main-frame" name="main_frame" frameborder="no" scrolling="yes" cd_frame_id_="c9b2b54f4c8142ab95a0e8cca2b8065b">
+  </frameset>
+</frameset><noframes></noframes>
+  
+  
+  
+
+
+
+</html>
