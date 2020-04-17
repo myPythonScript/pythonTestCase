@@ -1,1 +1,1 @@
-2020-04-16 10:48:19.342000 WARNING - This version of ChromeDriver has not been tested with Chrome version 80.
+2020-04-17 03:24:12.005000 WARNING - This version of ChromeDriver has not been tested with Chrome version 80.

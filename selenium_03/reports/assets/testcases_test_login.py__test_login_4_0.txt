@@ -1,0 +1,1 @@
+2020-04-17 03:58:02.648000 SEVERE - http://39.104.14.232/newecshop/admin/js/transport_bd.js 411:10 Uncaught

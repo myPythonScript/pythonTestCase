@@ -15,7 +15,7 @@ if (window.top != window)
 </head><frameset rows="113,*" framespacing="0" border="0" id="frame-all">
   <frame src="index.php?act=top" id="header-frame" name="header-frame" frameborder="no" scrolling="no">
   <frameset cols="200, *" framespacing="0" border="0" id="frame-body">
-    <frame src="index.php?act=menu" id="menu-frame" name="menu_frame" frameborder="no" scrolling="yes" cd_frame_id_="214a03d5000abcf8df4e2dfcc04b7185">
+    <frame src="index.php?act=menu" id="menu-frame" name="menu_frame" frameborder="no" scrolling="yes">
     <frame src="index.php?act=main" id="main-frame" name="main_frame" frameborder="no" scrolling="yes">
   </frameset>
 </frameset><noframes></noframes>
