@@ -8,6 +8,12 @@ caps = {
     "appActivity": "com.lqr.wechat.ui.activity.SplashActivity"
 }
 
-driver = webdriver.Remote("http//:127.0.0.1:4273/wd/hub", caps)
+# caps = {
+#     "platformName": "Android",
+#     "platformVersion": "5.1.1",
+#     "deviceName": "127.0.0.1:62001",
+#     "appPackage": "com.lqr.wechat",
+#     "appActivity": "com.lqr.wechat.ui.activity.SplashActivity"
+# }
 
-driver.quit()
+driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
