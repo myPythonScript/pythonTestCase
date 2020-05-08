@@ -25,6 +25,10 @@ if len(login_btn) != 0:
     print(login_btn[0].get_attribute("resourceId"))
     print(login_btn[0].get_attribute("text"))
     print(login_btn[0].get_attribute("className"))
+    print(login_btn[0].text)
+    print(login_btn[0].size)
+    print(login_btn[0].location)
+
     login_btn[0].click()
     driver.find_element_by_xpath("//*[@text='你的手机号码']").send_keys("18010181267")
     driver.find_element_by_id("com.lqr.wechat:id/etPwd").send_keys("123456")
@@ -36,3 +40,4 @@ else:
     print(address_list.get_attribute("resourceId"))
     print(address_list.get_attribute("text"))
     print(address_list.get_attribute("className"))
+
