@@ -6,7 +6,7 @@ caps = {
     "platformVersion": "5.1.1",
     "deviceName": "127.0.0.1:62001",
     "app": "C:/Users/Administrator/Desktop/app-debug.apk",
-    "autoLaunch": False
+    "autoLaunch": "False"
 }
 
 driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
@@ -36,7 +36,7 @@ if isInstall is True:
     print("已安装")
     login()
 else:
-    print("未安装")
+    print("未安装，开始安装")
     driver.install_app(r"C:\Users\Administrator\Desktop\app-debug.apk")
-    print("安装完成")
+    print("安装完成，开始登录")
     login()
