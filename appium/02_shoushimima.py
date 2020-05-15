@@ -4,10 +4,11 @@ from appium.webdriver.common.touch_action import TouchAction
 
 caps = {
     "platformName": "Android",
-    "platformVersion": "5.1.1",
-    "deviceName": "127.0.0.1:62001",
+    "platformVersion": "7.1.2",
+    "deviceName": "127.0.0.1:62025",
     "appPackage": "cn.kmob.screenfingermovelock",
-    "appActivity": "com.samsung.ui.FlashActivity"
+    "appActivity": "com.samsung.ui.FlashActivity",
+	"automationName": "uiautomator2"
 }
 
 driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
