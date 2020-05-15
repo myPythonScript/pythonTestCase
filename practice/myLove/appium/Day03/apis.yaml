@@ -1,0 +1,17 @@
+- method: post
+  url: http://115.28.108.130:5000/api/user/login/
+  data:
+    name: 张三
+    password: 123456
+
+- method: get
+  url: https://httpbin.org/get?a=1&b=2
+
+- method: post
+  url: https://httpbin.org/post
+  headers:
+    Cookie: abc
+  json:
+    a: 1
+    b: 2
+

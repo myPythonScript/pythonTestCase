@@ -1,0 +1,11 @@
+[
+  "test_case/web_test/demo1.py::test_baidu",
+  "test_case/web_test/test_demo1.py::test_baidu",
+  "test_case/web_test/test_demo1.py::test_baidu2",
+  "test_case/web_test/test_demo1.py::test_login",
+  "test_case/web_test/test_demo1.py::test_menu",
+  "test_case/web_test/test_demo1.py::test_login1",
+  "test_case/web_test/test_demo1.py::test_login2",
+  "test_case/web_test/test_demo1.py::test_add_goods",
+  "test_case/web_test/test_demo1.py::test_logging"
+]
