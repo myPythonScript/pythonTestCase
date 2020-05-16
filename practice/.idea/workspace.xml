@@ -2,226 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ac41bf-1e87-4b02-8360-20fcec7f10f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../appium/toutiao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../auto_framework/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/pythonScript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/pythonScript.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/.idea/appium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/.idea/appium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/common/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/common/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/common/helper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/common/logger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/saucetestcase.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/appium_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/appium_service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/applicationstate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/clipboard_content_type.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/common/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/common/mobileby.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/common/multi_action.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/common/touch_action.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/connectiontype.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/errorhandler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/action_helpers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/android/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/android/activities.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/android/common.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/android/display.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/android/gsm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/android/nativekey.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/android/network.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/android/performance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/android/power.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/android/sms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/android/system_bars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/applications.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/clipboard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/context.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/device_time.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/execute_driver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/execute_mobile_command.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/hw_actions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/images_comparison.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/ime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/keyboard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/location.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/log_event.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/remote_fs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/screen_record.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/search_context/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/search_context/android.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/search_context/base_search_context.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/search_context/custom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/search_context/ios.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/search_context/mobile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/search_context/windows.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/session.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/extensions/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/mobilecommand.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/switch_to.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/appium/webdriver/webelement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium-3.141.0.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium-3.141.0.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium-3.141.0.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium-3.141.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium-3.141.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium-3.141.0.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/common/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/common/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/android/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/android/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/blackberry/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/blackberry/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/chrome/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/chrome/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/chrome/remote_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/chrome/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/chrome/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/action_chains.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/actions/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/actions/action_builder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/actions/input_device.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/actions/interaction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/actions/key_actions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/actions/key_input.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/actions/mouse_button.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/actions/pointer_actions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/actions/pointer_input.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/alert.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/by.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/desired_capabilities.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/html5/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/html5/application_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/keys.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/proxy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/touch_actions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/common/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/edge/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/edge/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/edge/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/edge/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/extension_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/firefox_binary.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/firefox_profile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/remote_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/webdriver.xpi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/webdriver_prefs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/webelement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/ie/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/ie/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/ie/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/ie/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/opera/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/opera/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/opera/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/phantomjs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/phantomjs/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/phantomjs/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/remote/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/remote/command.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/remote/file_detector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/remote/getAttribute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/remote/isDisplayed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/remote/mobile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/remote/remote_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/remote/switch_to.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/remote/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/safari/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/safari/permissions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/safari/remote_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/safari/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/safari/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/support/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/support/abstract_event_listener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/support/color.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/support/event_firing_webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/support/events.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/support/expected_conditions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/support/select.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/support/ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/support/wait.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/webkitgtk/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/webkitgtk/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/webkitgtk/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/selenium/webdriver/webkitgtk/webdriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/setuptools.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/setuptools.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3-1.25.9.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3-1.25.9.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3-1.25.9.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3-1.25.9.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3-1.25.9.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3-1.25.9.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/_collections.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/connectionpool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/contrib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/contrib/_appengine_environ.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/contrib/_securetransport/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/contrib/appengine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/contrib/ntlmpool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/contrib/pyopenssl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/contrib/securetransport.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/contrib/socks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/filepost.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/packages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/packages/backports/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/packages/backports/makefile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/packages/six.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/poolmanager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/util/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/util/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/util/queue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/util/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/util/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/util/retry.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/util/ssl_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/util/timeout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/util/url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Lib/site-packages/urllib3/util/wait.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Scripts/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/venv/Scripts/Activate.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/venv/Scripts/activate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/venv/Scripts/activate.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Scripts/easy_install-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/venv/Scripts/easy_install-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Scripts/pip-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/venv/Scripts/pip-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Scripts/pip3-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/venv/Scripts/pip3-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Scripts/python.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/venv/Scripts/python.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/Scripts/pythonw.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/venv/Scripts/pythonw.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appium/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../appium/venv/pyvenv.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../auto_framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../auto_framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingshuo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingshuo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingshuo/.idea/qingshuo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingshuo/.idea/qingshuo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingshuo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingshuo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -338,6 +121,7 @@
       <workItem from="1587909565128" duration="339000" />
       <workItem from="1587910097748" duration="81000" />
       <workItem from="1589597426280" duration="165000" />
+      <workItem from="1589600348380" duration="33000" />
     </task>
     <servers />
   </component>
@@ -349,7 +133,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
