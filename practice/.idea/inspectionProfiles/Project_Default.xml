@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="mylove.test_cases.api_test.conftest.utils" />
+          <option value="LoginPage" />
+          <option value="app_test.conftest.app_pages" />
+          <option value="longteng17.test_cases.web_test.conftest.pages" />
+          <option value="longteng17_1.longteng17.test_cases.web_test.conftest.pages" />
+          <option value="pytest.assume" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
